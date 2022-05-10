@@ -2,7 +2,7 @@ const MongoClient = require('mongodb')
 const Evaluate = require('../Algorithms/EvaluateQuiz')
 const ObjectId = require('mongodb').ObjectId
 require('dotenv').config()
-const CONNECTION_URLT = 'mongodb+srv://kunal:kunal@myproject.tousm.mongodb.net/myproject?retryWrites=true&w=majority';
+const CONNECTION_URLT = 'mongodb+srv://hassu123:hassu123@devconnector.uhq0g.mongodb.net/DevConnector?retryWrites=true&w=majority';
 let db
 const DBStart = async () => {
 	console.log('DB server connecting...')
